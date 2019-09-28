@@ -1,0 +1,54 @@
+body{
+    background-image: url("http://exaevents.in/img_external/wedding-event-management-services-kottayam.jpg");
+    min-height: 1180px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content:flex-end;
+    width: 50%;
+    
+
+
+
+}
+li{
+    display: flex;
+    list-style: none;
+    width:20%;
+
+}
+a {
+    text-decoration: none;
+    color:black;
+    padding: 30px 24px;
+    
+    display: inline-block;
+}
+.sign{
+    position: absolute;
+  right: 70;
+  margin: 20px 490px ;
+  max-width: 300px;
+  padding: 16px;
+  background-color: rgb(223, 204, 207);
+}
+
+input[type=line]{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 12px 60;
+    border: none;
+    background: whitesmoke;
+  }
+  
+  input[type=line]:focus{
+    background-color: violet;
+        outline: none;
+  }
